@@ -23,7 +23,7 @@ classes = ['man', 'woman']
 # Initialize face detector
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 
-# Loop through frames
+# Loop through frame
 while video.isOpened():
     # Read frame from video
     status, frame = video.read()
